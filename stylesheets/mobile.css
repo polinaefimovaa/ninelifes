@@ -12,9 +12,10 @@
         width: 27.4vw;
         height: 19.4vw;
         border: 0.5vw solid #2B2A2B;
-        border-radius: 10%;
+        border-radius: 7%;
         margin-top: 20%;
-        margin-left: 35%;   
+        margin-left: 35%;
+        transform: scale(1.5);
     }
     @keyframes waarning {
         0% {transform: rotate(0deg);}

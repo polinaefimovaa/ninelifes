@@ -565,8 +565,8 @@
         animation: left1 2s linear forwards;
     }
     @keyframes left1 {
-        0% {background: url(../images/person2.svg); background-size: cover; background-repeat: no-repeat; }
-        100% {background: url(../images/person2_1.svg); background-size: cover;background-repeat: no-repeat }
+        0% {background: url(../images/person2.svg); background-size: cover; }
+        100% {background: url(../images/person2_1.svg); background-size: cover; }
     }
     /* книжные полки */
     .shelf3, .shelf2 {

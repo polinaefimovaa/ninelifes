@@ -1,0 +1,1211 @@
+@media all and (min-width: 1024px) {
+    body {
+        cursor: url('../images/cursor.png'), auto;
+      }
+    .warning0 {
+      display: none;
+    }
+  
+    .main > div {
+        background-size: cover;
+    }
+    h1 {
+        font-size: 1.7vw;
+        text-align: center;
+        font-family: Montserrat;
+        font-weight: 500;
+    }
+    article {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 119.6vw;
+        background: url('../images/background.svg');
+        background-size: cover;
+        opacity: 1;
+        
+    }
+    .left {
+        margin-left: 7.9vw;
+    }
+    .left, .right {
+        display: inline-block;
+    }
+    .opac {
+        opacity: .7;
+    }
+    /* ванная */
+    .bathroom {
+        width: 15vw;
+        height: 17vw;
+        margin-top: 14.8vw;
+        position: relative;
+    }
+    .tile {
+        width: 14.38vw;
+        height: 16.95vw;
+        background: url(../images/tile.svg);
+        background-size: cover;
+        margin-left: 0.4vw;
+    }
+    .mirror {
+        margin-bottom: 8.1vw;
+        width: 4.9vw;
+        height: 7.02vw;
+        background: url(../images/mirror.svg);
+        background-size: cover;
+        margin-left: 0.7vw;
+        display: inline-block;
+    }
+    .sink {
+        width: 5.5vw;
+        height: 7.7vw;
+        background: url(../images/sink.svg);
+        background-size: cover;
+        margin-top: -7.8vw;
+        margin-left: 0.5vw;
+    }
+    .shower {
+        margin-left: -0.2vw;
+        margin-top: 0.5vw;
+        width: 8.55vw;
+        height: 16.4vw;
+        background: url(../images/shower.svg);
+        background-size: cover;
+        display: inline-block;
+    }
+    /* улыбка */
+    .smile{
+        width: 2vw;
+        height: 2vw;
+        background: url(../images/smile.svg);
+        background-size: cover;
+        margin-left: 1.4vw;
+        margin-top: 2vw;
+        animation: smile1 .3s steps(4) alternate;
+    }
+    .none {
+        display: none;
+    }
+    .exist {
+        opacity: 1;
+    }
+    .water1 {
+        width: 7.7vw;
+        height: 15vw;
+        margin-top: 0.7vw;
+        transform: rotate(180deg);
+    }
+    .water {
+        display: block;
+        width: 72%;
+        height: 1%;
+        background-color: #20BEFF;
+        background-size: cover; 
+        animation: water01 5s ease forwards;
+        animation-delay: 3s;
+    }
+    .stop {
+        animation: none;
+    }
+    @keyframes water01 {
+        0% {height: 1%;}
+        100% {height: 100%;}
+    }
+    /* чердак */
+    .attic {
+        width: 66.32vw;
+        height: 26.32vw;
+        margin-bottom: 0.2vw;
+        margin-left: 0.7vw;
+    }
+    .a_pink {
+        background: url(../images/pink_wallpaper_attic.svg);   
+    }
+    .a_blue {
+        background: url(../images/blue_wallpaper_attic.svg);
+    }
+    .a_green {
+        background: url(../images/green_wallpaper_attic.svg);
+    }
+
+    /* коробки */
+    .boxes {
+        width: 10.56vw;
+        height: 4.9vw;
+        margin: 0vw 5.8vw;
+        margin-top: 0.15vw;
+        background: url(../images/boxes.svg);
+        background-size: cover;
+    }
+    .b {
+        width: 5.84vw;
+        height: 3.34vw;
+        background: url(../images/box.svg);
+        background-size: cover;
+    }
+    .box {
+        margin-left: 16vw;
+        position: absolute;
+        top: 9.6vw;
+    }
+    .fall {
+        animation: fall1 3s forwards;
+    }
+    @keyframes fall1 {
+        0% {margin-left: 16vw;}
+        50% {margin-left: 21vw;}
+        100% {margin-left: 21vw; top: 16vw;}
+    }
+    /* книжный шкаф */
+    .bookshelf {
+        width: 19.38vw;
+        height: 20.34vw;
+        margin-left: 3.5vw;
+        margin-top: -0.6vw;
+        padding: 0.7vw 0vw;
+    }
+    .b_pink {
+        background: url(../images/pink_bookshelf.svg);   
+        background-size: cover; 
+    }
+    .b_blue {
+        background: url(../images/blue_bookshelf.svg);
+        background-size: cover;
+    }
+    .b_green {
+        background: url(../images/green_bookshelf.svg);
+        background-size: cover;
+    }
+
+    /* книги */
+    .books {
+        width: 15.77vw;
+        height: 18vw;
+        margin: 0vw 2.88vw;
+    }
+    .b1_pink {
+        background: url(../images/pink_books.svg);
+        background-size: cover;
+    }
+    .b1_blue {
+        background: url(../images/blue_books.svg);
+        background-size: cover;
+    }
+    .b1_green {
+        background: url(../images/green_books.svg);
+        background-size: cover;
+    }
+
+    /* человек */
+    .person {
+        width: 6.88vw;
+        height: 20vw;
+        margin: -19.6vw 18.8vw;
+        background: url(../images/person.svg);
+        background-size: cover;
+    }
+    /* кресло */
+    .chair{
+        width: 9.73vw;
+        height: 11.12vw;
+        margin: 8.05vw 27vw;
+    }
+    .c_pink {
+        background: url(../images/pink_chair.svg);
+        background-size: cover;
+    }
+    .c_blue {
+        background: url(../images/blue_chair.svg);
+        background-size: cover;
+    }
+    .c_green {
+        background: url(../images/green_chair.svg);
+        background-size: cover;
+    }
+    /* окно */
+    .window {
+        width: 23.9vw;
+        height: 12.93vw;
+        margin: -32.5vw 28.9vw;
+        background: url(../images/window.svg);
+        background-size: cover;
+    }
+    /* спальня */
+    .bedroom {
+        width: 43.4vw;
+        height: 25vw;
+        margin-top: 21.2vw;
+    }
+    .bed_green {
+        background: url(../images/green_wallpaper_bedroom.svg);
+    }
+    .bed_pink {
+        background: url(../images/pink_wallpaper_bedroom.svg);
+    }
+    .bed_blue {
+        background: url(../images/blue_wallpaper_bedroom.svg);
+    }
+    /* лампа */
+    .lamp {
+        width: 6.12vw;
+        height: 18.27vw;
+        margin-top: 6.6vw;
+        margin-left: 0.3vw;
+        display: inline-block;
+    }
+    .l_pink {
+        background: url(../images/pink_lamp.svg);
+        background-size: cover;
+    }
+    .l_green {
+        background: url(../images/green_lamp.svg);
+        background-size: cover;
+    }
+    .l_blue {
+        background: url(../images/blue_lamp.svg);
+        background-size: cover;
+    }
+    /* окно */
+    .window1 {
+        width: 13vw;
+        height: 11.95vw;
+        margin-bottom: 10.4vw;
+        margin-left: -0.2vw;
+        background: url(../images/window1.svg);
+        display: inline-block;
+        background-size: cover;
+    }
+    .bed {
+        width: 19.73vw;
+        height: 8.75vw;
+        margin-top: 4.9vw;
+        margin-left: 4.5vw;
+        background: url(../images/bed.svg);
+        background-size: cover;
+    }
+    /* картина 1 */
+    .painting1, .painting2, .painting3 {
+        height: 4.66vw;
+        margin-bottom: 18.9vw;
+    }
+    .painting1 {
+        width: 4.8vw;
+        margin-left: 2.2vw;
+        display: inline-block
+    }
+    .p1_green {
+        background: url(../images/green_painting1.svg);
+        background-size: cover;
+    }
+    .p1_blue {
+        background: url(../images/blue_painting1.svg);
+        background-size: cover;
+    }
+    .p1_pink {
+        background: url(../images/pink_painting1.svg);
+        background-size: cover;
+    }
+    /* картина 2 */
+    .painting2 {
+        width: 6.53vw;
+        margin-left: 1.3vw;
+        display: inline-block;
+    }
+    .p2_green {
+        background: url(../images/green_painting2.svg);
+        background-size: cover;
+    }
+    .p2_blue {
+        background: url(../images/blue_painting2.svg);
+        background-size: cover;
+    }
+    .p2_pink {
+        background: url(../images/pink_painting2.svg);
+        background-size: cover;
+    }
+    /* картина 3 */
+    .painting3 {
+        width: 5.5vw;
+        margin-left: 1.3vw;
+        display: inline-block;
+    }
+    .p3_green {
+        background: url(../images/green_painting3.svg);
+        background-size: cover;
+    }
+    .p3_blue {
+        background: url(../images/blue_painting3.svg);
+        background-size: cover;
+    }
+    .p3_pink {
+        background: url(../images/pink_painting3.svg);
+         
+        background-size: cover;
+    }
+    /* полка */
+    .shelf {
+        width: 20.84vw;
+        height: 4.1vw;
+        margin-left: 21.5vw;
+        margin-top: -17.6vw;
+    }
+    .s_green{
+        background: url(../images/green_shelf.svg);
+        background-size: cover;
+    }
+    .s_blue{
+        background: url(../images/blue_shelf.svg);
+        background-size: cover;
+    }
+    /* вор */
+    .thief {
+        width: 11.5vw;
+        height: 16vw;
+        margin-left: 19.6vw;
+        margin-top: -15.6vw;
+        background: url(../images/thief.svg);
+        background-size: cover;
+        animation: thief0 6s ease infinite;
+    }
+    @keyframes thief0 {
+        0% {  margin-left: 19.6vw;}
+        19% {background: url(../images/thief.svg);   background-size: cover;}
+        20% {background: url(../images/thief1.svg);   background-size: cover;}
+        39% {background: url(../images/thief1.svg);   background-size: cover;}
+        40% {background: url(../images/thief2.svg);   background-size: cover;}
+        49.99% {transform: scaleX(1);margin-left: 31.6vw;}
+        50% { margin-left: 31.6vw; transform: scaleX(-1);}
+        59% {background: url(../images/thief2.svg);   background-size: cover;}
+        60% {background: url(../images/thief1.svg);   background-size: cover;}
+        79% {background: url(../images/thief1.svg);   background-size: cover;}
+        80% {background: url(../images/thief.svg);   background-size: cover;}
+        99.99% { transform: scaleX(-1); margin-left: 19.6vw;}
+        100% {  margin-left: 19.6vw;transform: scaleX(1);}
+    }
+    /* гостиная с котом */
+    .living_room {
+        width: 36vw;
+        height: 25.3vw;
+        margin-bottom: -0.4vw;
+        margin-left: 0.8vw;
+    }
+    .lr_blue {
+        background: url(../images/blue_wallpaper_lr.svg);
+        background-size: cover;
+    }
+    .lr_pink {
+        background: url(../images/pink_wallpaper_lr.svg);
+        background-size: cover;
+    }
+    .lr_green {
+        background: url(../images/green_wallpaper_lr.svg);
+        background-size: cover;
+    }
+    /* картина */
+    .painting4{
+        width: 8.13vw;
+        height: 7.5vw;
+        margin-left: 1.4vw;
+        margin-top: 1.8vw;
+    }
+    .p4_green {
+        background: url(../images/green_painting4.svg);
+        background-size: cover;
+    }
+    .p4_blue {
+        background: url(../images/blue_painting4.svg);
+        background-size: cover;
+    }
+    .p4_pink {
+        background: url(../images/pink_painting4.svg);
+        background-size: cover;
+    }
+    /* лампа */
+    .lamp1 {
+        width: 7.57vw;
+        height: 9.7vw;
+        margin-left: 14.1vw;
+        margin-top: -9.3vw;
+        background: url(../images/lamp.svg);
+        background-size: cover;
+    }
+    /* котик */
+    .cat {
+        width: 8.62vw;
+        height: 6.46vw;
+        margin-left: 13.6vw;
+        margin-top: -8vw;
+        background: url(../images/cat.svg);
+        background-size: cover;
+    }
+    /* кресло */
+    .chair1 {
+        width: 11.9vw;
+        height: 13.06vw;
+        margin-left: 1.6vw;
+        margin-top: 3.9vw;
+        background: url(../images/chair.svg);
+        background-size: cover;
+    }
+    /* телевизор */
+    .tv{
+        width: 15.5vw;
+        height: 10.84vw;
+        margin-left: 16.8vw;
+        margin-top: -12.1vw;
+        padding: 0.734vw 0vw;
+    }
+    .tv_green {
+        background: url(../images/green_tv.svg);
+        background-size: cover;
+    }
+    .tv_blue {
+        background: url(../images/blue_tv.svg);
+        background-size: cover;
+    }
+    .tv_pink {
+        background: url(../images/pink_tv.svg);
+        background-size: cover;
+    }
+    .noise {
+        width: 11.4vw;
+        height: 5.42vw;
+        margin-left: 1.7vw;
+        background: url(../images/noise.svg);
+        background-size: cover;
+        animation: opacc .8s alternate infinite;
+    }
+    @keyframes opacc1 {
+        0% {opacity: 0.6;}
+        100% {opacity: 0;}
+    }
+    /* кабинет */
+    .study {
+        width: 28.5vw;
+        height: 25.2vw;
+        margin-top: 1.2vw;
+    }
+    /* часы */
+    .clock {
+        width: 4.35vw;
+        height: 4.2vw;
+        margin-top: 2.3vw;
+        margin-left: 6.4vw;
+        background: url(../images/clock.svg);
+        background-size: cover;
+    }
+    .clock1 {
+        width: 9.2vw;
+        height: 8.45vw;
+        margin-top: -6.3vw;
+        margin-left: 4.2vw;
+        background: url(../images/clock1.svg);
+        background-size: cover;
+    }
+    .clock_1 {
+        animation: clock_1 3s linear infinite;
+    }
+    @keyframes clock_1 {
+        0% {background: url(../images/clock1.svg); background-size: cover;}
+        50% {background: url(../images/clock2.svg);background-size: cover; transform: rotate(180deg);}
+        100% {background: url(../images/clock1.svg); background-size: cover; transform: rotate(360deg);}
+    }
+    .cloock {
+        animation: cloock 3s linear infinite;
+    }
+    @keyframes cloock {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+    }
+    .stop1 {
+        animation-play-state: paused;
+    }
+    .left1 {
+        animation: left1 2s linear forwards;
+    }
+    @keyframes left1 {
+        0% {background: url(../images/person2.svg); background-size: cover;  }
+        100% {background: url(../images/person2_1.svg); background-size: cover;  }
+    }
+    /* книжные полки */
+    .shelf3, .shelf2 {
+        width: 11.6vw;
+        height: 3.9vw;
+    }
+    .shelf3 {
+        margin-top: -6.4vw;
+        margin-left: 14.6vw;
+    }
+    .sh1_blue {
+        background: url(../images/blue_shelf3.svg);
+        background-size: cover;
+    }
+    .sh1_green {
+        background: url(../images/green_shelf3.svg);
+        background-size: cover;
+    }
+    .shelf2 {
+        margin-left: 12.2vw;
+    }
+    .sh2_blue {
+        background: url(../images/blue_shelf2.svg);
+        background-size: cover;
+    }
+    .sh2_green {
+        background: url(../images/green_shelf2.svg);
+        background-size: cover;
+    }
+    /* лампа */
+    .lamp3 {
+        width: 5.5vw;
+        height: 7.87vw;
+        margin-top: -0.9vw;
+        margin-left: 2.2vw;
+    ;
+    }
+    .l3_blue {
+        background: url(../images/blue_lamp3.svg);
+        background-size: cover;
+    }
+    .l3_green {
+        background: url(../images/green_lamp3.svg);
+        background-size: cover;
+    }
+    .l3_pink {
+        background: url(../images/pink_lamp3.svg);
+        background-size: cover;
+    }
+    /* стол  */
+    .table {
+        width: 19.66vw;
+        height: 14.4vw;
+        margin-top: -5.3vw;
+        margin-left: 0.9vw;
+        background: url(../images/table.svg);
+        background-size: cover;
+    }
+    /* человек на стуле */
+    .person2 {
+        width: 7.71vw;
+        height: 16.46vw;
+        margin-top: -17.7vw;
+        margin-left: 8.5vw;
+        background: url(../images/person2.svg);
+        background-size: cover;
+    }
+    /* растение */
+    .pot {
+        width: 6.12vw;
+        height: 16.6vw;
+        margin-top: -16.4vw;
+        margin-left: 20.6vw;
+        background: url(../images/pot.svg);
+        background-size: cover;
+    }
+    .leaves {
+        width: 7vw;
+        height: 13.9vw;
+        margin-top: -18.2vw;
+        margin-left: 19.4vw;
+        background: url(../images/leaves.svg);
+        background-size: cover;
+    }
+    /* кухня */
+    .kitchen {
+        width: 50.7vw;
+        height: 24.8vw;
+        margin-bottom: 0.3vw;
+        margin-left: 0.6vw;
+    }
+    .k_blue {
+        background: url(../images/blue_wallpaper_kitchen.svg);
+        background-size: cover;
+    }
+    .k_pink {
+        background: url(../images/pink_wallpaper_kitchen.svg);
+        background-size: cover;
+    }
+    .k_green {
+        background: url(../images/green_wallpaper_kitchen.svg);
+        background-size: cover;
+    }
+    /* картина */
+    .painting5{
+        width: 16.46vw;
+        height: 8.75vw;
+        margin-left: 4.25vw;
+        margin-top: 2.9vw;
+    }
+    .p5_green {
+        background: url(../images/green_painting5.svg);
+        background-size: cover;
+    }
+    .p5_blue {
+        background: url(../images/blue_painting5.svg);
+        background-size: cover;
+    }
+    .p5_pink {
+        background: url(../images/pink_painting5.svg);
+        background-size: cover;
+    }
+    /* вытяжка */
+    .kitchen1 {
+        width: 16.81vw;
+        height: 11.25vw;
+        margin-left: 34vw;
+        margin-top: -11.5vw;
+        background: url(../images/kitchen1.svg);
+        background-size: cover;
+    }
+    /* стол */
+    .table1 {
+        width: 19.74vw;
+        height: 7.1vw;
+        margin-top: 6.15vw;
+        margin-left: 3.2vw;
+    }
+    .t_blue {
+        background: url(../images/blue_table.svg);
+        background-size: cover;
+    }
+    .t_green {
+        background: url(../images/green_table.svg);
+        background-size: cover;
+    }
+    .t_pink {
+        background: url(../images/pink_table.svg);
+        background-size: cover;
+    }
+    /* тарелка с фруктами */
+    .plate {
+        width: 5.42vw;
+        height: 4.38vw;
+        margin-top: -9.6vw;
+        margin-left: 4.9vw;
+    }
+    .pl_blue {
+        background: url(../images/blue_plate.svg);
+        background-size: cover;
+    }
+    .pl_pink {
+        background: url(../images/pink_plate.svg);
+        background-size: cover;
+    }
+    /* кружка */
+    .cup {
+        width: 2.64vw;
+        height: 2.71vw;
+        margin-top: -2.7vw;
+        margin-left: 15.3vw;
+    }
+    .cup_blue {
+        background: url(../images/blue_cup.svg);
+        background-size: cover;
+    }
+    .cup_green {
+        background: url(../images/green_cup.svg);
+        background-size: cover;
+    }
+    .cup_pink {
+        background: url(../images/pink_cup.svg);
+        background-size: cover;
+    }
+    /* столешница 1 */
+    .tablekitchen1 {
+        width: 10.84vw;
+        height: 8.75vw;
+        margin-top: -3.5vw;
+        margin-left: 25.6vw;
+    }
+    .tk1_blue {
+        background: url(../images/blue_tablekitchen1.svg);
+        background-size: cover;
+    }
+    .tk1_green {
+        background: url(../images/green_tablekitchen1.svg);
+        background-size: cover;
+    }
+    .tk1_pink {
+        background: url(../images/pink_tablekitchen1.svg);
+        background-size: cover;
+    }
+    /* плита */
+    .stove {
+        width: 11vw;
+        height: 8.75vw;
+        margin-top: -8.7vw;
+        margin-left: 34.1vw;
+        background: url(../images/stove.svg);
+        background-size: cover;
+    }
+    /* кастрюля */
+    .saucepan {
+        width: 6.4vw;
+        height: 5.5vw;
+        margin-top: -12.9vw;
+        margin-left: 38.3vw;
+        background: url(../images/saucepan.svg);
+        background-size: cover;
+    }
+    .kasha {
+        animation: kasha 3s forwards;
+    }
+    @keyframes kasha {
+        0% {background: url(../images/saucepan.svg);   background-size: cover; }
+        20% {background: url(../images/saucepan1.svg);   background-size: cover;}
+        40% {background: url(../images/saucepan2.svg);   background-size: cover;}
+        60% {background: url(../images/saucepan3.svg);   background-size: cover;}
+        80% {background: url(../images/saucepan4.svg);   background-size: cover;}
+        100% {background: url(../images/saucepan5.svg);   background-size: cover;}
+    }
+    /* столешница 2 */
+    .tablekitchen2 {
+        width: 7.71vw;
+        height: 9.1vw;
+        margin-top: -1.6vw;
+        margin-left: 43vw;
+    }
+    .tk2_blue {
+        background: url(../images/blue_tablekitchen2.svg);
+        background-size: cover;
+    }
+    .tk2_green {
+        background: url(../images/green_tablekitchen2.svg);
+        background-size: cover;
+    }
+    .tk2_pink {
+        background: url(../images/pink_tablekitchen2.svg);
+        background-size: cover;
+    }
+    /* комната с электрическим щитком */
+    .electric {
+        width: 36.81vw;
+        height: 25.77vw;
+        margin-top: 0.7vw;
+        margin-left: 8.4vw;
+        position: relative;
+    }
+    .e_blue {
+        background: url(../images/blue_wallpaper_electric.svg);
+        background-size: cover;
+    }
+    .e_green {
+        background: url(../images/green_wallpaper_electric.svg);
+        background-size: cover;
+    }
+    .e_pink {
+        background: url(../images/pink_wallpaper_electric.svg);
+        background-size: cover;
+    }
+    .electric_shield {
+        width: 8.69vw;
+        height: 10.21vw;
+        margin-top: 6.9vw;
+        margin-left: 0.3vw;
+        background: url(../images/shield.svg);
+        background-size: cover;
+    }
+    /* труба с щитком */
+    .pipes {
+        width: 25.3vw;
+        height: 25.7vw;
+        margin-top: -17.1vw;
+        margin-left: 1.8vw;
+    }
+    .pipes_blue {
+        background: url(../images/blue_pipes1.svg);
+        background-size: cover;
+    }
+    .pipes_green {
+        background: url(../images/green_pipes1.svg);
+        background-size: cover;
+    }
+    .pipes_pink {
+        background: url(../images/pink_pipes1.svg);
+        background-size: cover;
+    }
+    /* труба справа */
+    .pipe {
+        width: 8.7vw;
+        height: 25.56vw;
+        margin-top: -25.67vw;
+        margin-left: 28.2vw;
+    }
+    .pipe_blue {
+        background: url(../images/blue_pipe.svg);
+        background-size: cover;
+    }
+    .pipe_green {
+        background: url(../images/green_pipe.svg);
+        background-size: cover;
+    }
+    .pipe_pink {
+        background: url(../images/pink_pipe.svg);
+        background-size: cover;
+    }
+    /* молнии */
+    .lii1 {
+        animation: opacc .4s alternate infinite;
+    }
+    .lii2 {
+        animation: opacc .5s alternate infinite;
+    }
+    .lightning5 {
+        position: absolute;
+        width: 1.25vw;
+        height: 2.8vw;
+        background: url(../images/lightning5.svg);
+        background-size: cover;
+        top: 4vw;
+        left: 2vw;
+        
+    }
+    .lightning4 {
+        position: absolute;
+        width: 1.4vw;
+        height: 2.37vw;
+        background: url(../images/lightning4.svg);
+        background-size: cover;
+        top: 4.4vw;
+        left: 5vw;
+
+    }
+    .lightning3 {
+        position: absolute;
+        width: 0.98vw;
+        height: 2.16vw;
+        background: url(../images/lightning3.svg);
+        background-size: cover;
+        top: 4.5vw;
+        left: 8vw;
+    }
+    .lightning2, .lightning1 {
+        left: 9vw;
+    }
+    .lightning2 {
+        position: absolute;
+        width: 2.71vw;
+        height: 1.32vw;
+        background: url(../images/lightning2.svg);
+        background-size: cover;
+        top: 7vw;
+    }
+    .lightning1 {
+        position: absolute;
+        width: 2.5vw;
+        height: 1.25vw;
+        background: url(../images/lightning1.svg);
+        background-size: cover;
+        top: 10vw;
+    }
+    @keyframes opacc {
+        0% { opacity: 0;}
+        100% { opacity: 1;}
+    }
+    /* комната с камином */
+    .fireplace {
+        width: 42.23vw;
+        height: 25.77vw;
+        margin-left: 0.67vw;
+    }
+    .f_blue {
+        background: url(../images/blue_wallpaper_fireplace.svg);
+        background-size: cover;
+    }
+    .f_green {
+        background: url(../images/green_wallpaper_fireplace.svg);
+        background-size: cover;
+    }
+    .f_pink {
+        background: url(../images/pink_wallpaper_fireplace.svg);
+        background-size: cover;
+    }
+    /* стул */
+    .chair3 {
+        width: 14vw;
+        height: 12.71vw;
+        margin-top: 13.04vw;
+        margin-left: 3.4vw;
+        background: url(../images/chair3.svg);
+        background-size: cover;
+    }
+    /* человек */
+    .person3 {
+        width: 12.64vw;
+        height: 17.85vw;
+        margin-top: -17vw;
+        margin-left: 3.3vw;
+        background: url(../images/person3.svg);
+        background-size: cover;
+    }
+    .dream1 {
+        width: 5.7vw;
+        height: 4.4vw;
+        margin-top: -23vw;
+        margin-left: 11.3vw;
+        animation: dreaming 1.5s infinite;
+        background: url(../images/dream0.svg); background-size: cover;
+    }
+    @keyframes dreaming {
+        0% { background: url(../images/dream0.svg); background-size: cover; }
+        32% {background: url(../images/dream0.svg); background-size: cover; }
+        33% { background: url(../images/dream1.svg); background-size: cover; }
+        65% {background: url(../images/dream1.svg); background-size: cover; }
+        66% { background: url(../images/dream.svg); background-size: cover; }
+        100% { background: url(../images/dream.svg); background-size: cover; }
+    }
+    /* дрова */
+    .firewood {
+        width: 5.91vw;
+        height: 3.69vw;
+        margin-top: -2.8vw;
+        margin-left: -6vw;
+        background: url(../images/firewood.svg);
+        background-size: cover;
+
+    }
+    .disapear {
+        animation: disapear .4s forwards;
+    }
+    @keyframes disapear {
+        0% {opacity: 1;}
+        100% {opacity: 0;}
+    }
+    /* камин */
+    .fireplace1 {
+        width: 14.52vw;
+        height: 3.92vw;
+        margin-top: -8vw;
+        margin-left: 22.1vw;
+        background: url(../images/fireplace.svg);
+        background-size: cover;
+
+        padding: 11.1vw 0vw;
+    }
+    /* картина */
+    .painting6{
+        width: 4.52vw;
+        height: 3.2vw;
+        margin-left: 4.5vw;
+    }
+    .p6_green {
+        background: url(../images/green_painting6.svg);
+        background-size: cover;
+
+    }
+    .p6_blue {
+        background: url(../images/blue_painting6.svg);
+        background-size: cover;
+
+    }
+    .p6_pink {
+        background: url(../images/pink_painting6.svg);
+        background-size: cover;
+
+    }
+    /* огонь */
+    .fire {
+        width: 9.17vw;
+        height: 4.6vw;
+        margin-top: 6.1vw;
+        margin-left: 2.1vw;
+        background: url(../images/fire.svg);
+        background-size: cover;
+
+    }
+    .fiire {
+        animation: fiire .8s forwards;
+    }
+    @keyframes fiire {
+        0% {background: url(../images/fire.svg);  background-size: cover; }
+        100% {background: url(../images/fiire.svg);  background-size: cover; }
+    }
+    /* имя и группа */
+    .name, .group {
+        font-weight: 400;
+        color: white;
+        text-align: left;
+        display: inline-block;
+    }
+    .name {
+        height: 3vw;
+        margin-top: 2.6vw;
+        margin-left: 7.8vw;
+    }
+    .group {
+        margin-left: 56vw;
+    }
+
+    /* текстовые блоки */
+    .text {
+        width: 18.4vw;
+        height: 12.4vw;
+        position: absolute;
+        background: white;
+        border-radius: 10%;
+    }
+    .t0, .warning {
+        width: 27.4vw;
+        height: 19.4vw;
+        border: 0.5vw solid #2B2A2B;
+        border-radius: 7%;
+        top: 9vw;
+        left: 36vw;
+    }
+    .text > h1 {
+        margin-top: 7%;
+        line-height: 115%;
+    }
+    .logo {
+        width: 7vw;
+        height: 6vw;
+        margin-top: 1vw;
+        margin-left: 10vw;
+        background: url(../images/logo.svg);
+        background-size: cover;
+    }
+    .t1, .t8, .t6 {
+        border: 0.5vw solid #53FF6E;
+    }
+    .t1
+    {
+        top: 9vw;
+        left: 22vw;
+    }
+    .dush {
+        width: 5.3vw;
+        height: 6vw;
+        margin-top: 0.5vw;
+        margin-left: 6.8vw;
+        background: url(../images/dush.svg);
+        background-size: cover;
+    }
+    .t2, .t3, .t4 {
+        border: 0.5vw solid #20BEFF;
+    }
+    .t5,.t7 {
+        border: 0.5vw solid #FF46A0;
+    }
+    .t2 {
+        top: 9.5vw;
+        left: 51vw;
+    }
+    .thebox {
+        margin-top: 2vw;
+        margin-left: 6vw;
+        transform: scale(1.5);
+    }
+    .t3 {
+        top: 28.5vw;
+        left: 74vw;
+    }
+    .caat {
+        width: 6.25vw;
+        height: 5.14vw;
+        margin-top: 0.5vw;
+        margin-left: 27%;
+        background: url(../images/caat.svg);
+        background-size: cover;
+    }
+    .t5 {
+        top: 57.5vw;
+        left: 24vw;
+    }
+    .theclock {
+        width: 7vw;
+        height: 6vw;
+        margin-top: 0.5vw;
+        margin-left: 31%;
+        background: url(../images/theclock.svg);
+        background-size: cover;
+    }
+    .t6 {
+        top: 60.5vw;
+        left: 52vw;
+    }
+    .thesaucepan {
+        width: 7vw;
+        height: 6vw;
+        margin-left: 28%;
+        background: url(../images/saucepan.svg);
+        background-size: cover;
+    }
+    .t7 {
+        top: 85.5vw;
+        left: 21vw;
+    }
+    .shitok {
+        width: 7vw;
+        height: 6.1vw;
+        margin-top: 0.4vw;
+        margin-left: 30%;
+        background: url(../images/shitok.svg);
+        background-size: cover;
+    }
+    .t8 {
+        top: 85.5vw;
+        left: 51vw;
+    }
+    .thefire {
+        width: 9.17vw;
+        height: 4.59vw;
+        margin-top: 0.5vw;
+        margin-left: 25%;
+        background: url(../images/fire.svg);
+        background-size: cover;
+        background-size: 10.2vw;
+    }
+    .t4 {
+        top: 37.5vw;
+        left: 9vw;
+    }
+    .theeif {
+        width: 9vw;
+        height: 8vw;
+        margin-top: 0.2vw;
+        margin-left: 5vw;
+        background: url(../images/thethief.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 8.3vw;
+    }
+    .smoke {
+        width: 13.55vw;
+        height: 3.13vw;
+        margin-left: 65vw;
+        background: url(../images/smoke.svg);
+        background-size: cover;
+        animation: smoke0 2s ease infinite;
+
+    }
+    @keyframes smoke0 {
+        0% {background: url(../images/smoke.svg);   background-size: cover;}
+        49% {background: url(../images/smoke.svg);   background-size: cover;}
+        50% {background: url(../images/smoke1.svg);   background-size: cover;}
+        99% {background: url(../images/smoke1.svg);   background-size: cover;}
+        100% {background: url(../images/smoke.svg);   background-size: cover;}
+    }
+    .bird {
+        width: 10.84vw;
+        height: 5.5vw;
+        margin-left: 81vw;
+        margin-top: -26vw;
+        background: url(../images/bird.svg);
+        background-size: cover;
+        animation: bird0 .3s alternate infinite;
+    }
+    @keyframes bird0 {
+        0% {background: url(../images/bird.svg);   background-size: cover; }
+        24% {background: url(../images/bird.svg);   background-size: cover;}
+        25% {background: url(../images/bird1.svg);   background-size: cover;}
+        49% {background: url(../images/bird1.svg);   background-size: cover;}
+        50% {background: url(../images/bird2.svg);   background-size: cover;}
+        74% {background: url(../images/bird2.svg);   background-size: cover;}
+        75% {background: url(../images/bird1.svg);   background-size: cover;}
+        99% {background: url(../images/bird1.svg);   background-size: cover;}
+        100% {background: url(../images/bird.svg);   background-size: cover;}
+    }
+}

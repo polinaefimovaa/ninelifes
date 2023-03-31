@@ -1,0 +1,40 @@
+<svg width="164" height="78" viewBox="0 0 164 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_853_172016" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="164" height="78">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.78772 1.54855C48.66 -0.742466 94.6219 -0.00613832 140.541 0.73019H140.573H140.603C148.165 0.851284 155.725 0.972377 163.283 1.0798C163.634 26.4821 163.014 51.8786 161.423 77.2321C154.64 77.1325 147.856 77.0232 141.07 76.9138H141.037H141.004H140.95H140.895C94.2608 76.1618 47.5822 75.4079 0.997833 77.8181C2.52628 52.4255 3.12283 26.988 2.78772 1.54855Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_853_172016)">
+<rect x="2" width="15" height="53" fill="#FF46A0"/>
+<rect x="17" width="15" height="53" fill="#53FF6E"/>
+<rect x="32" width="15" height="53" fill="#20BEFF"/>
+<rect x="47" width="15" height="53" fill="#53FF6E"/>
+<rect x="62" width="15" height="53" fill="#FF46A0"/>
+<rect x="77" width="15" height="53" fill="#53FF6E"/>
+<rect x="92" width="15" height="53" fill="#20BEFF"/>
+<rect x="107" width="15" height="53" fill="#FF46A0"/>
+<rect x="122" width="15" height="53" fill="#20BEFF"/>
+<rect x="137" width="15" height="53" fill="#53FF6E"/>
+<rect x="152" width="15" height="53" fill="#FF46A0"/>
+<rect x="2" y="53" width="15" height="5" fill="#20BEFF"/>
+<rect x="-1" y="58" width="18" height="20" fill="#53FF6E"/>
+<rect x="17" y="58" width="15" height="20" fill="#20BEFF"/>
+<rect x="32" y="58" width="15" height="20" fill="#FF46A0"/>
+<rect x="47" y="58" width="15" height="20" fill="#53FF6E"/>
+<rect x="62" y="58" width="15" height="20" fill="#20BEFF"/>
+<rect x="77" y="58" width="15" height="20" fill="#FF46A0"/>
+<rect x="92" y="58" width="15" height="20" fill="#53FF6E"/>
+<rect x="107" y="58" width="15" height="20" fill="#FF46A0"/>
+<rect x="122" y="58" width="15" height="20" fill="#20BEFF"/>
+<rect x="137" y="58" width="15" height="20" fill="#53FF6E"/>
+<rect x="152" y="58" width="15" height="20" fill="#FF46A0"/>
+<rect x="17" y="53" width="15" height="5" fill="#FF46A0"/>
+<rect x="32" y="53" width="15" height="5" fill="#53FF6E"/>
+<rect x="47" y="53" width="15" height="5" fill="#FF46A0"/>
+<rect x="62" y="53" width="15" height="5" fill="#53FF6E"/>
+<rect x="77" y="53" width="15" height="5" fill="#20BEFF"/>
+<rect x="92" y="53" width="15" height="5" fill="#FF46A0"/>
+<rect x="107" y="53" width="15" height="5" fill="#20BEFF"/>
+<rect x="122" y="53" width="15" height="5" fill="#53FF6E"/>
+<rect x="137" y="53" width="15" height="5" fill="#20BEFF"/>
+<rect x="152" y="53" width="15" height="5" fill="#53FF6E"/>
+</g>
+</svg>
